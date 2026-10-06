@@ -1,4 +1,5 @@
 import React from 'react'
+import FallingParticles from '../components/FallingParticles'
 
 export default function Home() {
   return (
@@ -6,8 +7,10 @@ export default function Home() {
         <section id="home" className="relative min-h-screen flex items-center justify-center px-4 py-20
          overflow-hidden">
 
+          <FallingParticles/>
+
       {/* (Glow Effect) */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[350px]
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64
        sm:w-[550px] h-[350px] sm:h-[550px] bg-purple-600/20 blur-[120px] rounded-full 
        pointer-events-none -z-10" />
 
@@ -21,14 +24,14 @@ export default function Home() {
         </div>
 
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight mb-6 text-white">
-          Crafting Digital <br className="hidden sm:block" />
+          Building Modern Web <br className="hidden sm:block" />
           <span className="bg-linear-to-r from-pink-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
             Experiences
           </span>
         </h1>
 
         <p className="text-gray-300 text-base sm:text-lg max-w-xl leading-relaxed mb-8">
-          I build responsive, accessible, and user-friendly web applications using
+          I build responsive and user-friendly web applications using
           React.js, JavaScript, and modern frontend technologies.
         </p>
 

@@ -8,14 +8,46 @@ const projects = [
       "A responsive organic food e-commerce website built with React and TypeScript, featuring product browsing, category and price filtering, and interactive sliders using Swiper.js. The project is currently in development, with additional features such as the shopping cart and checkout flow being implemented.",
     image: "/images/projects/OrganicFood_Screenshoot.png",
     technologies: ["React","TypeScript", "Tailwind CSS", "React Router","Swiper.js"],
-    github: "https://github.com/yourusername/organic-food",
-    live: "https://your-organic-food.vercel.app",
+    github: "https://github.com/hebahassanin/Organic-Foods",
+    live: "https://organic-foods-lyart.vercel.app/",
   },
+  {
+  title: "Quiz Management System",
+  description:
+    "A role-based quiz management platform built with React and TypeScript, supporting Instructor and Student roles. Instructors can create and manage quizzes, students can join timed exams using access codes, and both roles can manage and track quiz-related data through protected, role-based interfaces.",
+  image: "/images/projects/QuizApp_Screenshoot.png",
+  technologies: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Redux Toolkit",
+    "React Hook Form",
+    "Axios",
+  ],
+  github: "https://github.com/hebahassanin/Quiz-App",
+  live: "https://quiz-app-psi-puce.vercel.app/",
+},
+{
+  title: "Food Management System",
+  description:
+    "A role-based food management application built with React, featuring complete authentication and separate Admin and User experiences. Admins can manage users, recipes, and categories through CRUD operations, while users can browse recipes and manage their favorite recipes. The application integrates REST APIs with protected routes and form handling.",
+  image: "/images/projects/FoodApp_Screenshoot.png",
+  technologies: [
+    "React",
+    "Bootstrap",
+    "React Hook Form",
+    "React Router",
+    "REST API",
+    "CSS Animations",
+  ],
+  github: "https://github.com/hebahassanin/food-app",
+  live: "https://food-app-flame-xi.vercel.app/",
+},
   {
     title: "Online Bookstore",
     description:
       "A responsive online bookstore built with React and TypeScript, featuring customer authentication, book browsing, filtering by name, price, and category, shopping cart functionality, and Stripe payment integration. The project also includes interactive sliders built with Swiper.js and REST API integration for managing book data.",
-    image: "/images/projects/BookStore_Screenshoot.png",
+    image: "/images/projects/BookStore_Screenshot.png",
     technologies: ["React", "TypeScript", "MUI", "Redux Toolkit","Stripe","Swiper.js"],
     github: "https://github.com/hebahassanin/online-bookstore",
     live: "https://online-bookstore-tau.vercel.app/",
@@ -24,7 +56,7 @@ const projects = [
     title: "PMS",
     description:
       "A role-based Project Management System built with React, featuring authentication, protected routes, task management, and interactive dashboards. Managers can manage projects and tasks, while employees organize their work through a drag-and-drop Kanban board.",
-    image: "/images/projects/Pms_Screenshoot.png",
+    image: "/images/projects/Pms_ScreenShoot.png",
     technologies: ["React", "React Bootstrap", "Context API", "chart.js","React Hook Form","Dnd Kit"],
     github: "https://github.com/hebahassanin/Project-Management-System",
     live: "https://project-management-system-omega-five.vercel.app/",
